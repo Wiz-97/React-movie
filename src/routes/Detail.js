@@ -25,8 +25,8 @@ function Detail() {
             <div>
         <img src={currentMovie.data.movie.medium_cover_image}></img>
         <h3>Title : {currentMovie.data.movie.title}</h3>
-        <h3>Summary : {currentMovie.data.movie.summary}</h3>
         <h3>Genre : {currentMovie.data.movie.genres}</h3>
+        <h3>Year : {currentMovie.data.movie.year}</h3>
         <h2>
             <Link to={`/`}>Go Home</Link>
         </h2>
